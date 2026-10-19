@@ -41,7 +41,7 @@ function App() {
 
       <header className="hero-section">
         <div className="container hero-content">
-          <p className="hero-label">YOUR NEXT MOVIE EXPERIENCE</p>
+          <p className="hero-label">YOUR BEST MOVIE EXPERIENCE</p>
           <h1>
             Movies are better
             <br />
@@ -51,7 +51,7 @@ function App() {
             Discover movies, explore showtimes, choose your seats
             and book your next cinema experience.
           </p>
-          <a href="#movies" className="btn btn-danger btn-lg px-4">
+          <a id="explore-movies-btn" href="#movies" className="btn btn-danger btn-lg px-4">
             Explore Movies
           </a>
         </div>
