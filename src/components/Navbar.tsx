@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 interface NavbarProps {
   onSignInClick: () => void;
@@ -26,10 +27,10 @@ function Navbar({ onSignInClick, onSignUpClick }: NavbarProps) {
 
         <div className="collapse navbar-collapse" id="mainNavbar">
           <div className="navbar-nav ms-auto align-items-lg-center gap-lg-3">
-            <a className="nav-link" href="/">Home</a>
+            <Link className="nav-link" to="/">Home</Link>
             <a className="nav-link" href="#movies">Movies</a>
             <a className="nav-link" href="#theatres">Theatres</a>
-            <a className="nav-link" href="#shows">Shows</a>
+            <Link className="nav-link" to="/shows">Shows</Link>
 
             <button
               type="button"
